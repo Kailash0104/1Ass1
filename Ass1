@@ -1,0 +1,11 @@
+a={1:[1,'ramani','F','BCA','Pass'],
+2:[2,'madhu','F','MPC','Pass'],
+3:[3,'babi','M','BBA','Pass'],
+4:[4,'priya','F','MECS','Fail'],
+5:[5,'prasad','M','MECS','Fail']}
+x=int(input('Enter a number:'))
+print('Enter student number:',a[x][0])
+print('Enter student name:',a[x][1])
+print('Gender:',a[x][2])
+print('Group:',a[x][3])
+print('Grarde',a[x][4])
